@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".55" stop-color="#d70018"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="480" rx="36" fill="url(#bg)"/>
+  <circle cx="1180" cy="120" r="390" fill="url(#glow)"/>
+  <g transform="translate(1180 35) rotate(8)">
+    <rect width="210" height="405" rx="38" fill="#020617" stroke="#ffffff" stroke-opacity=".6" stroke-width="6"/>
+    <rect x="13" y="17" width="184" height="353" rx="28" fill="#f8fafc"/>
+    <circle cx="53" cy="63" r="27" fill="#d70018"/>
+    <circle cx="116" cy="63" r="27" fill="#111827"/>
+    <circle cx="53" cy="125" r="27" fill="#475569"/>
+  </g>
+  <text x="95" y="210" font-family="Arial, sans-serif" font-size="70" font-weight="700" fill="#ffffff">DANH MỤC ĐIỆN THOẠI</text>
+  <text x="95" y="278" font-family="Arial, sans-serif" font-size="29" fill="#ffffff" fill-opacity=".82">Tìm kiếm • Lọc • So sánh • Chọn cấu hình</text>
+</svg>

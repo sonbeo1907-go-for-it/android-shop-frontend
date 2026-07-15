@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="1" stop-color="#d70018"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="665" cy="70" r="170" fill="#ffffff" fill-opacity=".10"/>
+  <circle cx="630" cy="205" r="100" fill="#ffffff" fill-opacity=".18"/>
+  <text x="630" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="120">⚙</text>
+  <text x="50" y="205" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff">CẤU HÌNH</text>
+</svg>

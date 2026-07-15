@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.58" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="50" r="375" fill="url(#glow)"/>
+  <g transform="translate(1180 40) rotate(8)">
+    <rect width="210" height="420" rx="34" fill="#0f172a" stroke="#ffffff" stroke-opacity=".5" stroke-width="5"/>
+    <rect x="12" y="16" width="186" height="378" rx="25" fill="#f8fafc"/>
+    <circle cx="105.0" cy="408" r="5" fill="#94a3b8"/>
+    <circle cx="42" cy="52" r="24" fill="#0369a1"/>
+    <circle cx="96" cy="52" r="24" fill="#111827"/>
+  </g>
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">TRA CỨU ĐƠN HÀNG</text>
+  <text x="100" y="285" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" fill-opacity=".84">Mã đơn và số điện thoại</text>
+</svg>
