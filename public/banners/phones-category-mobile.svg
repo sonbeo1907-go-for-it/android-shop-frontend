@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".55" stop-color="#d70018"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="760" rx="36" fill="url(#bg)"/>
+  <circle cx="610" cy="120" r="300" fill="#ffffff" fill-opacity=".12"/>
+  <g transform="translate(510 55) rotate(8)">
+    <rect width="180" height="350" rx="36" fill="#020617" stroke="#ffffff" stroke-opacity=".65" stroke-width="6"/>
+    <rect x="13" y="17" width="154" height="302" rx="27" fill="#f8fafc"/>
+    <circle cx="50" cy="62" r="24" fill="#d70018"/>
+    <circle cx="107" cy="62" r="24" fill="#111827"/>
+  </g>
+  <text x="55" y="455" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">ĐIỆN THOẠI</text>
+  <text x="55" y="515" font-family="Arial, sans-serif" font-size="26" fill="#ffffff" fill-opacity=".84">Tìm kiếm và lọc sản phẩm</text>
+</svg>
