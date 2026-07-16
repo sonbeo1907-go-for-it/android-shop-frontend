@@ -141,7 +141,7 @@ export function PhoneCard({
               "hover:border-primary hover:bg-primary hover:text-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary/20",
             )}
           >
-            Chọn cấu hình
+            Thêm vào giỏ hàng
             <ArrowRight aria-hidden="true" className="size-4" />
           </Link>
         </div>
