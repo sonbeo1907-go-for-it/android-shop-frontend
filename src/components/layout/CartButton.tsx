@@ -27,7 +27,7 @@ export function CartButton({
   return (
     <Link
       href={href}
-      aria-label={`${label}, ${safeCount} sản phẩm`}
+      aria-label={`${label}, ${safeCount} loại sản phẩm`}
       className={cn(
         "relative inline-flex min-h-10 shrink-0 items-center gap-2 rounded-button px-2.5 text-white transition hover:bg-white/10",
         className,

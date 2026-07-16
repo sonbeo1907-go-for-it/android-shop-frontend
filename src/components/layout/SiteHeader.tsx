@@ -25,7 +25,7 @@ import {
   MAIN_NAVIGATION,
 } from "@/constants/navigation";
 import {
-  selectCartTotalQuantity,
+  selectCartDistinctPhoneCount,
   useCartStore,
 } from "@/features/cart/cart.store";
 
@@ -82,10 +82,10 @@ export function SiteHeader({
   const hydrated = useCartStore(
     (state) => state.hydrated,
   );
-
+  
   const persistedCartCount =
     useCartStore(
-      selectCartTotalQuantity,
+      selectCartDistinctPhoneCount,
     );
 
   /*

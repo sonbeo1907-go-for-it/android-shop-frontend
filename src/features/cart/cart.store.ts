@@ -300,3 +300,11 @@ export function selectCartIsEmpty(
 ): boolean {
   return state.items.length === 0;
 }
+
+export function selectCartDistinctPhoneCount(
+  state: CartState,
+): number {
+  return new Set(
+    state.items.map((item) => item.phoneId),
+  ).size;
+}
